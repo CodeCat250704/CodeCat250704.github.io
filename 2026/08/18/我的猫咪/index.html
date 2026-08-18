@@ -20,17 +20,31 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false,"background":"rgba(255, 255, 255, 0.75)","backdrop":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="这是我用 Hexo 写的第一篇文章，欢迎来到猫猫的博客！">
+  <meta name="description" content="电路图的识读基础--CA6140车床电气控制线路原理图举例">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的猫咪">
+<meta property="og:title" content="你的文章标题">
 <meta property="og:url" content="http://example.com/2026/08/18/%E6%88%91%E7%9A%84%E7%8C%AB%E5%92%AA/index.html">
 <meta property="og:site_name" content="CodeCat&#39;s Blog">
-<meta property="og:description" content="这是我用 Hexo 写的第一篇文章，欢迎来到猫猫的博客！">
+<meta property="og:description" content="电路图的识读基础--CA6140车床电气控制线路原理图举例">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/picture/p1.png">
+<meta property="og:image" content="http://example.com/picture/p2.png">
+<meta property="og:image" content="http://example.com/2026/08/18/%E6%88%91%E7%9A%84%E7%8C%AB%E5%92%AA/picture/p3.png">
+<meta property="og:image" content="http://example.com/picture/p4.png">
+<meta property="og:image" content="http://example.com/2026/08/18/%E6%88%91%E7%9A%84%E7%8C%AB%E5%92%AA/picture/p5.png">
+<meta property="og:image" content="http://example.com/picture/p6.png">
+<meta property="og:image" content="http://example.com/2026/08/18/%E6%88%91%E7%9A%84%E7%8C%AB%E5%92%AA/picture/p7.png">
+<meta property="og:image" content="http://example.com/2026/08/18/%E6%88%91%E7%9A%84%E7%8C%AB%E5%92%AA/picture/p8.png">
+<meta property="og:image" content="http://example.com/picture/p7.png">
+<meta property="og:image" content="http://example.com/picture/p8.png">
+<meta property="og:image" content="http://example.com/picture/p9.png">
+<meta property="og:image" content="http://example.com/2026/08/18/%E6%88%91%E7%9A%84%E7%8C%AB%E5%92%AA/picture/p10.png">
 <meta property="article:published_time" content="2026-08-18T06:00:00.000Z">
-<meta property="article:modified_time" content="2026-08-18T03:48:17.650Z">
+<meta property="article:modified_time" content="2026-08-18T04:39:43.471Z">
 <meta property="article:author" content="CodeCat">
+<meta property="article:tag" content="电拖">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/picture/p1.png">
 
 <link rel="canonical" href="http://example.com/2026/08/18/%E6%88%91%E7%9A%84%E7%8C%AB%E5%92%AA/">
 
@@ -45,7 +59,7 @@
   };
 </script>
 
-  <title>我的猫咪 | CodeCat's Blog</title>
+  <title>你的文章标题 | CodeCat's Blog</title>
   
 
 
@@ -193,7 +207,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          我的猫咪
+          你的文章标题
         </h1>
 
         <div class="post-meta">
@@ -204,7 +218,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2026-08-18 14:00:00 / 修改时间：11:48:17" itemprop="dateCreated datePublished" datetime="2026-08-18T14:00:00+08:00">2026-08-18</time>
+              <time title="创建时间：2026-08-18 14:00:00 / 修改时间：12:39:43" itemprop="dateCreated datePublished" datetime="2026-08-18T14:00:00+08:00">2026-08-18</time>
             </span>
 
           
@@ -218,7 +232,105 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>（这里放正文）<br>这是我用 Hexo 写的第一篇文章！<br>欢迎来到猫猫的博客。</p>
+        <h1 id="电路图的识读基础–CA6140车床电气控制线路原理图举例"><a href="#电路图的识读基础–CA6140车床电气控制线路原理图举例" class="headerlink" title="电路图的识读基础–CA6140车床电气控制线路原理图举例"></a>电路图的识读基础–CA6140车床电气控制线路原理图举例</h1><hr>
+<p>Hello,EveryBody.我是Cat，现在我们来说说<strong>电路图的识读基础</strong>，我们使用<strong>CA6140车床电气控制线路原理图</strong>来举例。<br>今天我们只掌握识读基本方法，认识电路图，在下一次我们将进行<strong>CA6140车床电气控制线路原理图</strong>的<strong>工作原理分析</strong>。</p>
+<h2 id="如何识读"><a href="#如何识读" class="headerlink" title="如何识读"></a>如何识读</h2><p>由于种种原因，机床的电器控制线路一般都比较复杂（通俗来讲：<strong>电气元件</strong>和<strong>电气设备</strong>较多。</p>
+<p><strong>但是</strong>，不用担心，因为所以的机床的基本电路都是差不多的。</p>
+<p>至于如何识读，我的<strong>个人</strong>建议是<strong>主电路</strong>和<strong>控制电路</strong>一起看，<strong>控制电路</strong>的&#x3D;&#x3D;优先级&#x3D;&#x3D;<em>永远高于</em><strong>主电路</strong>。</p>
+<hr>
+<h2 id="CA6140车床电气控制线路原理图"><a href="#CA6140车床电气控制线路原理图" class="headerlink" title="CA6140车床电气控制线路原理图"></a>CA6140车床电气控制线路原理图</h2><p>好了，接下来展示图纸：<br><img src="/./picture/p1.png"><br>这个就是CA6140车床电气控制线路原理图<br>同时，这张图也是<strong>维修</strong>，<strong>接线</strong>的重要理论依据</p>
+<p>那么是不是需要机床实物呢，答案是<strong>不需要</strong>，&#x3D;&#x3D;为什么呢？&#x3D;&#x3D;<br>问这么多为什么干什么，说了&#x3D;&#x3D;不用&#x3D;&#x3D;就是&#x3D;&#x3D;不用&#x3D;&#x3D;，记住就行。</p>
+<hr>
+<h2 id="电路功能区域的划分"><a href="#电路功能区域的划分" class="headerlink" title="电路功能区域的划分"></a>电路功能区域的划分</h2><p><strong>划分作用</strong><br>便于分析机床电气控制线路的工作原理和明确各部分的功能。</p>
+<p><strong>划分方法</strong><br>将机床电器控制线路原理图按电路功能划分成若干个单元，并用文字将其功能标注在控制线路原理图上部的栏内。</p>
+<p>如下图所示，电路共分成<strong>13个单元</strong>。（红色框出来的部分）<br><img src="/./picture/p2.png"><br>这里&#x3D;&#x3D;一个小格就叫做一个单元&#x3D;&#x3D;，如下图所示的叫<strong>一个单元</strong>。</p>
+<p align="center">
+  <img src="./picture/p3.png" alt="" width="10%">
+</p>
+
+<p>在图中，总共分13个单元，分别是：</p>
+<blockquote>
+<p>1.电源保护<br>2.电源隔离开关<br>3.主轴电动机<br>4.短路保护<br>5.冷却泵电动机<br>6.刀架快速移动电动机<br>7.控制变压器及保护<br>8.断电保护<br>9.主轴电动机控制<br>10.刀架快速移动<br>11.冷却泵控制<br>12.信号灯<br>13.照明灯</p>
+</blockquote>
+<hr>
+<h2 id="电路图区的划分"><a href="#电路图区的划分" class="headerlink" title="电路图区的划分"></a>电路图区的划分</h2><p><strong>划分作用</strong><br>便于分析各种用电设备的主电路，控制回路和标注各电器元件的触点，线圈等在电路图中的位置。</p>
+<p><strong>划分方法</strong><br>在机床电气控制线路原理图的下部或者上部，按一条回路或一条支路为单位划分成若干图区，从左向右依次用阿拉伯数字编号标注在图区栏。</p>
+<p>&#x3D;&#x3D;<strong>注意</strong>&#x3D;&#x3D;：<strong>无论是哪个机床的电路图，它的所有的电路图区和电路功能区域都是互斥的，只能一个在上，一个在下，不能一起</strong></p>
+<p>如下图所示，电路共分成<strong>12个图区</strong>。（红色框出来的部分）<br><img src="/./picture/p4.png"><br>这里&#x3D;&#x3D;一个小格就叫做一个图区&#x3D;&#x3D;，如下图所示的叫<strong>一个图区</strong>。</p>
+<p align="center">
+  <img src="./picture/p5.png" alt="" width="10%">
+</p>
+
+<hr>
+<h2 id="电气元件线圈下方该元件触点所属图区号的标注"><a href="#电气元件线圈下方该元件触点所属图区号的标注" class="headerlink" title="电气元件线圈下方该元件触点所属图区号的标注"></a>电气元件线圈下方该元件触点所属图区号的标注</h2><p><strong>划分作用</strong><br>在机床电气控制线路原理图中，为了方便快速理解电路图，对于有线圈电器元件，他们的线圈下方要标注该元件触点所属图区号。</p>
+<p><strong>划分原因</strong><br>因为我们所说的原理图，它是一个控制电路与主电路分离的电路图，所以一个元器件可能在电路图中多次显示，为了方便查找，我们需要在下方标注与便快速查找。</p>
+<p>如下图红框框出来的地方所示这就是序号的标注<br><img src="/./picture/p6.png" alt="CA6140车床电气控制线路原理图元件触点所属图区号"></p>
+<p>在ca6140车床电器控制线路原理图中总共运用了三个地方的区号标注。<br>一个区号的标注如下图所示：</p>
+<p align="center">
+  <img src="./picture/p7.png" alt="" width="10%">
+</p>
+<p align="center">
+  <img src="./picture/p8.png" alt="" width="10%">
+</p>
+
+<p>&#x3D;&#x3D;<strong>注意</strong>：他们都标注在<strong>线圈下方</strong>。&#x3D;&#x3D;</p>
+<p><strong>划分规则</strong><br>在原理图中<br>对于<strong>每个接触器</strong>，其线圈下方画出<strong>两条竖直线</strong>，分成<strong>左</strong>、<strong>中</strong>、<strong>右</strong>三栏。<br>对于<strong>每个继电器</strong>，在线圈下方画出<strong>一条竖直线</strong>，分成<strong>左</strong>、<strong>右</strong>两栏。<br>将受其线圈控制而动作的各个触点所处的图区号填入相应的栏内，&#x3D;&#x3D;对备而未用的触点（也就是存在，但是没有接任何线路，没有启用）&#x3D;&#x3D;，在相应的栏内用记号**“x”**&#x3D;&#x3D;标出&#x3D;&#x3D;或&#x3D;&#x3D;不标出&#x3D;&#x3D;<strong>任何符号</strong>。</p>
+<p><strong>接触器标注方法</strong></p>
+<table>
+<thead>
+<tr>
+<th>栏目</th>
+<th>左栏</th>
+<th>中栏</th>
+<th>右栏</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>触点类型</td>
+<td>主触点所处图区号</td>
+<td>辅助动合触点所处图区号</td>
+<td>辅助动断触点所处图区号</td>
+</tr>
+<tr>
+<td>举例<br><img src="/./picture/p7.png"></td>
+<td>表示 3 对主触点均在“2”号图区</td>
+<td>表示一对辅助动合触点在“8”号图区，另一对动合触点在“10”号图区</td>
+<td>表示 2 对辅助动断触点均未用</td>
+</tr>
+</tbody></table>
+<p><strong>继电器标注方法</strong></p>
+<table>
+<thead>
+<tr>
+<th>栏目</th>
+<th>左栏</th>
+<th>右栏</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>触点类型</td>
+<td>动合触点所处图区号</td>
+<td>动断触点所处图区号</td>
+</tr>
+<tr>
+<td>举例<br><img src="/./picture/p8.png"></td>
+<td>表示 3 对动合触点均在“4”号图区</td>
+<td>表示动断触点均未用</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="电气元件触点文字符号下方线圈图区号的标注"><a href="#电气元件触点文字符号下方线圈图区号的标注" class="headerlink" title="电气元件触点文字符号下方线圈图区号的标注"></a>电气元件触点文字符号下方线圈图区号的标注</h2><p><strong>划分作用</strong><br>在机床电气控制线路原理图中，为了方便快速理解电路图，对于接触器，中间继电器等电器元件，他们的触点文字符号下方用阿拉伯数字标注线圈图区号。</p>
+<p><strong>划分原因</strong><br>因为我们所说的原理图，它是一个控制电路与主电路分离的电路图，所以一个元器件可能在电路图中多次显示，为了方便查找，我们需要在下方标注与便快速查找。</p>
+<p>如下图红框框出来的地方所示这就是序号的标注<br><img src="/./picture/p9.png" alt="CA6140车床电气控制线路原理图区号"></p>
+<p>在ca6140车床电器控制线路原理图中总共运用了若干地方的区号标注。<br>一个区号的标注如下图所示：</p>
+<p align="center">
+  <img src="./picture/p10.png" alt="" width="10%">
+</p>
+
+<p>&#x3D;&#x3D;<strong>注意</strong>：他们都标注在<strong>文字符号下方</strong>。&#x3D;&#x3D;</p>
+<hr>
+<p>好了，以上就是今天的全部内容，下一次我们将进行<strong>CA6140车床电气控制线路原理图</strong>的<strong>工作原理分析</strong>，再见。<br>更多精彩内容请访问 publicstudio.dpdns.org</p>
+<h1 id="重磅消息"><a href="#重磅消息" class="headerlink" title="重磅消息"></a>重磅消息</h1><p>同时，我们正在构建<strong>AI项目论坛</strong>，有意者可通过&#x3D;&#x3D;<a href="mailto:&#x63;&#x61;&#116;&#50;&#48;&#x32;&#54;&#x32;&#48;&#50;&#x36;&#x40;&#49;&#x32;&#54;&#x2e;&#x63;&#x6f;&#x6d;">cat20262026@126.com</a>&#x3D;&#x3D;联系。有经验丰富的AI编程经验者优先考虑。</p>
 
     </div>
 
@@ -227,18 +339,14 @@
     
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%94%B5%E6%8B%96/" rel="tag"># 电拖</a>
+          </div>
 
         
 
 
         
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2026/08/18/hello-world/" rel="prev" title="Hello World">
-      <i class="fa fa-chevron-left"></i> Hello World
-    </a></div>
-      <div class="post-nav-item"></div>
-    </div>
       </footer>
     
   </article>
@@ -296,6 +404,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%94%B5%E8%B7%AF%E5%9B%BE%E7%9A%84%E8%AF%86%E8%AF%BB%E5%9F%BA%E7%A1%80%E2%80%93CA6140%E8%BD%A6%E5%BA%8A%E7%94%B5%E6%B0%94%E6%8E%A7%E5%88%B6%E7%BA%BF%E8%B7%AF%E5%8E%9F%E7%90%86%E5%9B%BE%E4%B8%BE%E4%BE%8B"><span class="nav-number">1.</span> <span class="nav-text">电路图的识读基础–CA6140车床电气控制线路原理图举例</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E8%AF%86%E8%AF%BB"><span class="nav-number">1.1.</span> <span class="nav-text">如何识读</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CA6140%E8%BD%A6%E5%BA%8A%E7%94%B5%E6%B0%94%E6%8E%A7%E5%88%B6%E7%BA%BF%E8%B7%AF%E5%8E%9F%E7%90%86%E5%9B%BE"><span class="nav-number">1.2.</span> <span class="nav-text">CA6140车床电气控制线路原理图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%B5%E8%B7%AF%E5%8A%9F%E8%83%BD%E5%8C%BA%E5%9F%9F%E7%9A%84%E5%88%92%E5%88%86"><span class="nav-number">1.3.</span> <span class="nav-text">电路功能区域的划分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%B5%E8%B7%AF%E5%9B%BE%E5%8C%BA%E7%9A%84%E5%88%92%E5%88%86"><span class="nav-number">1.4.</span> <span class="nav-text">电路图区的划分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%B5%E6%B0%94%E5%85%83%E4%BB%B6%E7%BA%BF%E5%9C%88%E4%B8%8B%E6%96%B9%E8%AF%A5%E5%85%83%E4%BB%B6%E8%A7%A6%E7%82%B9%E6%89%80%E5%B1%9E%E5%9B%BE%E5%8C%BA%E5%8F%B7%E7%9A%84%E6%A0%87%E6%B3%A8"><span class="nav-number">1.5.</span> <span class="nav-text">电气元件线圈下方该元件触点所属图区号的标注</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%B5%E6%B0%94%E5%85%83%E4%BB%B6%E8%A7%A6%E7%82%B9%E6%96%87%E5%AD%97%E7%AC%A6%E5%8F%B7%E4%B8%8B%E6%96%B9%E7%BA%BF%E5%9C%88%E5%9B%BE%E5%8C%BA%E5%8F%B7%E7%9A%84%E6%A0%87%E6%B3%A8"><span class="nav-number">1.6.</span> <span class="nav-text">电气元件触点文字符号下方线圈图区号的标注</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%87%8D%E7%A3%85%E6%B6%88%E6%81%AF"><span class="nav-number">2.</span> <span class="nav-text">重磅消息</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -311,9 +420,13 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span>
       </div>
   </nav>
 </div>
